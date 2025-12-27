@@ -51,7 +51,7 @@ You can get this here: https://canary.discord.com/
    - Discord Desktop (CANARY ONLY): `Ctrl+Shift+I`
 4. **Navigate to the Console tab**
 5. **If you've never done this before, you will see a bunch of warnings from Discord. This is normal. You will need to type "Allow Pasting" to proceed.**
-6. **Copy the entire script** and paste it into the console
+6. **Copy the entire script** (disquest.js) and paste it into the console
 7. **Press Enter** to execute
 
 ### What to Expect
