@@ -2,8 +2,6 @@
 > ⚠️ This project is an experimental, client-side exploration of Discord’s quest state handling.  
 > It is provided for educational and research purposes and runs entirely within the local client environment.
 
-
-A reliable automation script for Discord quests with improved stability and user feedback.
 ![Screenshot of Disquest in action.](https://i.imgur.com/UoE6Pv4.png)
 
 ## What It Does
