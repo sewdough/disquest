@@ -20,7 +20,6 @@ const cleanup = {
 };
 // Auto-cleanup on errors
 window.addEventListener('beforeunload', () => cleanup.restore());
-// ==============================================
 
 try {
     let ApplicationStreamingStore = Object.values(wpRequire.c).find(x => x?.exports?.Z?.__proto__?.getStreamerActiveStreamMetadata).exports.Z;
@@ -47,7 +46,7 @@ try {
         const secondsNeeded = taskConfig.tasks[taskName].target
         let secondsDone = quest.userStatus?.progress?.[taskName]?.value ?? 0
 
-        // ============ UI HELPER FUNCTIONS ============
+        // ============ UI and Output ============
         const ui = {
             log: (emoji, message, color = "#ffffff") => {
                 console.log(`%c${emoji} ${message}`, `color: ${color}; font-weight: 500`);
@@ -130,7 +129,7 @@ try {
                 api.get({url: `/applications/public?application_ids=${applicationId}`}).then(res => {
                     const appData = res.body[0]
                     const exeName = appData.executables.find(x => x.os === "win32").name.replace(">","")
-                    
+                    // This assumes your Discord is installed on your C drive in the default location. If not, you'll need to adjust this part.
                     const fakeGame = {
                         cmdLine: `C:\\Program Files\\${appData.name}\\${exeName}`,
                         exeName,
