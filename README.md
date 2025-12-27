@@ -65,15 +65,14 @@ After running the script:
 - **Video Quests**: Work in both browser and desktop app
 - **Streaming Quests**: Require at least one other person in the voice channel (You do not need to stream the game. Just need to be in a voice channel with streaming permissions with someone.)
 
-##Script Download:
+## Script Download:
 <details>
-<summary>Click to reveal the script</summary>
-   ```js
+<summary> Click to reveal the script>🔽 </summary>
+   ```javascript
    delete window.$;
 let wpRequire = webpackChunkdiscord_app.push([[Symbol()], {}, r => r]);
 webpackChunkdiscord_app.pop();
 
-// ============ RESILIENCE ADDITIONS ============
 const cleanup = {
     intervals: [],
     dispatchers: [],
@@ -91,7 +90,6 @@ const cleanup = {
 };
 // Auto-cleanup on errors
 window.addEventListener('beforeunload', () => cleanup.restore());
-// ==============================================
 
 try {
     let ApplicationStreamingStore = Object.values(wpRequire.c).find(x => x?.exports?.Z?.__proto__?.getStreamerActiveStreamMetadata).exports.Z;
