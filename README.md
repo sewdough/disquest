@@ -1,7 +1,7 @@
 # Discord Quest Automation - Enhanced Version (Disquest)
 
 A reliable automation script for Discord quests with improved stability and user feedback.
-
+![Screenshot of Disquest in action.](https://i.imgur.com/UoE6Pv4.png)
 ## What It Does
 
 This script automatically detects and completes Discord quests by simulating the required activities:
