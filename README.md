@@ -67,9 +67,9 @@ After running the script:
 
 ### Troubleshooting
 - If nothing happens: Ensure you're on a Discord page (not login screen)
-- For desktop-only quests: Switch to Discord Desktop application
+- For desktop-only quests (games, streaming, etc): Switch to the Discord Canary Desktop application
 - If errors appear: Check the console for color-coded error messages
-- To stop early: Refresh the page - cleanup happens automatically
+- To stop early: Refresh the page (CTRL+R) - cleanup happens automatically in the script.
 
 ---
 
