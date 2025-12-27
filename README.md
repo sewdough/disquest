@@ -40,8 +40,8 @@ First, almost every video related quest can be handled in the browser client, bu
 You can get this here: https://canary.discord.com/
 
 ### Quick Start
-1. **Open Discord** in your browser
-2. **Open the Quest page and accept a quest.**
+1. **Open Discord** in your browser or Discord Canary app.
+2. ** <ins>Open the Quest page and accept a quest. </ins> **
 3. **Open Developer Console**:
    - Chrome/Edge: Press `F12` or `Ctrl+Shift+J`
    - Firefox: Press `F12` or `Ctrl+Shift+K`
