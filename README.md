@@ -79,6 +79,6 @@ After running the script:
 ---
 
 ### Potential upcoming features:
-**Recursive quest completion (quest cycling instead of needing to manually reinvoke the script.**
+**Recursive quest completion** (quest cycling instead of needing to manually reinvoke the script.)
 
 *Note: This tool automates activities that may be against Discord's Terms of Service. Use responsibly and at your own risk.*
