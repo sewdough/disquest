@@ -1,5 +1,6 @@
-# Discord Quest Automation - Enhanced Version (Disquest)
-*Note: This tool automates activities that may be against Discord's Terms of Service. Use responsibly and at your own risk.*
+# Disquest
+> ⚠️ This project is an experimental, client-side exploration of Discord’s quest state handling.  
+> It is provided for educational and research purposes and runs entirely within the local client environment.
 
 
 A reliable automation script for Discord quests with improved stability and user feedback.
@@ -7,16 +8,16 @@ A reliable automation script for Discord quests with improved stability and user
 
 ## What It Does
 
-This script automatically detects and completes Discord quests by simulating the required activities:
+This script demonstrates how Discord quest progress is represented and updated within the client by observing and replaying expected client-side signals:
 
-- **Detects active quests** from Discord's internal system
+- **Identifies active quest states** within the client
 - **Simulates game activity** for `PLAY_ON_DESKTOP` quests
-- **Fakes video watching** for `WATCH_VIDEO` and `WATCH_VIDEO_ON_MOBILE` quests
-- **Spoofs streaming status** for `STREAM_ON_DESKTOP` quests
+- **Emulates expected video playback signals** for `WATCH_VIDEO` and `WATCH_VIDEO_ON_MOBILE` quests
+- **Replicates streaming state transitions** for `STREAM_ON_DESKTOP` quests
 - **Simulates voice activity** for `PLAY_ACTIVITY` quests
-- **Sends progress updates** to Discord's API to mark quests as complete
+- **Dispatches progress events matching client expectations**
 
-The script temporarily modifies Discord's client state during operation and automatically restores everything when finished.
+The script operates by temporarily altering client-side state and restores all changes upon completion.
 
 ## What Has Been Added
 
@@ -38,8 +39,8 @@ The script temporarily modifies Discord's client state during operation and auto
 - **Centralized configuration** - Organized settings for easier maintenance
 - **State management** - Proper handling of quest progression and completion
 
-## How to Run It
-First, almost every video related quest can be handled in the browser client, but for quests requiring you to play games, you *will* need the discord dev branch (Canary) as the developer console is locked behind it and is not available in the normal stable branch of Discord. 
+## Usage (Local Client)
+First, almost every video related quest can be handled in the browser client, but for quests requiring you to play games, you *will* need the Discord dev branch (Canary) as the developer console is locked behind it and is not available in the normal stable branch of Discord. 
 You can get this here: https://canary.discord.com/
 
 ### Quick Start
@@ -81,4 +82,6 @@ After running the script:
 ### Potential upcoming features:
 **Recursive quest completion** (quest cycling instead of needing to manually reinvoke the script.)
 
-*Note: This tool automates activities that may be against Discord's Terms of Service. Use responsibly and at your own risk.*
+## Disclaimer
+This project is provided as-is and is intended for learning, experimentation, and client behavior analysis.
+Users are responsible for how they choose to use the software.
