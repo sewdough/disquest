@@ -1,7 +1,10 @@
 # Discord Quest Automation - Enhanced Version (Disquest)
+*Note: This tool automates activities that may be against Discord's Terms of Service. Use responsibly and at your own risk.*
+
 
 A reliable automation script for Discord quests with improved stability and user feedback.
 ![Screenshot of Disquest in action.](https://i.imgur.com/UoE6Pv4.png)
+
 ## What It Does
 
 This script automatically detects and completes Discord quests by simulating the required activities:
@@ -55,7 +58,7 @@ You can get this here: https://canary.discord.com/
 After running the script:
 - You'll see color-coded status messages in the console
 - The script will automatically detect any active quests
-- Note: You will need to reinvoke the script after quest completion. You do not need to paste it again, simply hit the ↑ arrow on your keyboard in the console to reinvoke the script.
+- Note: You will need to reinvoke the script after quest completion. You do not need to paste it again, simply hit the ↑ arrow on your keyboard in the console to reinvoke the script and hit enter.
 - Progress will be displayed with percentages and ETA
 - When complete, you'll see a success message
 - All modifications will be automatically cleaned up
@@ -74,5 +77,8 @@ After running the script:
 - To stop early: Refresh the page (CTRL+R) - cleanup happens automatically in the script.
 
 ---
+
+### Potential upcoming features:
+**Recursive quest completion (quest cycling instead of needing to manually reinvoke the script.**
 
 *Note: This tool automates activities that may be against Discord's Terms of Service. Use responsibly and at your own risk.*
