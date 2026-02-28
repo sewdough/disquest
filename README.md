@@ -36,6 +36,7 @@ The script operates by temporarily altering client-side state and restores all c
 - **Safe iteration patterns** - Replaced risky loops with controlled intervals
 - **Centralized configuration** - Organized settings for easier maintenance
 - **State management** - Proper handling of quest progression and completion
+- **Recursive Quest Completion** - You can now accept multiple quests at a time and let the script run through them all. :)
 
 ## Usage (Local Client)
 First, almost every video related quest can be handled in the browser client, but for quests requiring you to play games, you *will* need the Discord dev branch (Canary) as the developer console is locked behind it and is not available in the normal stable branch of Discord. 
@@ -77,8 +78,6 @@ After running the script:
 
 ---
 
-### Potential upcoming features:
-**Recursive quest completion** (quest cycling instead of needing to manually reinvoke the script.)
 
 ## Disclaimer
 This project is provided as-is and is intended for learning, experimentation, and client behavior analysis.
