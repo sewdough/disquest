@@ -24,6 +24,7 @@ The script operates by temporarily altering client-side state and restores all c
 - **Comprehensive error handling** - Graceful recovery from API failures and edge cases
 - **Page navigation protection** - Auto-cleans on refresh or tab close
 - **Resource tracking** - Manages intervals, dispatchers, and store modifications
+- **Multi-Quest Support** - Accept all, run once.
 
 ### Better User Experience
 - **Color-coded console output** - Easy-to-read status messages
@@ -44,7 +45,7 @@ You can get this here: https://canary.discord.com/
 
 ### Quick Start
 1. **Open Discord** in your browser or Discord Canary app.
-2. **⚠️Open the Quest page and accept a quest.⚠️**
+2. **⚠️Open the Quest page and accept a(ny) quest(s).⚠️**
 3. **Open Developer Console**:
    - Chrome/Edge: Press `F12` or `Ctrl+Shift+J`
    - Firefox: Press `F12` or `Ctrl+Shift+K`
