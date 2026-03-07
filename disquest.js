@@ -95,7 +95,7 @@ const cleanup = {
 window.addEventListener('beforeunload', () => cleanup.restore());
 
 // ────────────────────────────────────────────────
-//   STORE & API GRAB
+//   STORE & API GRAB 
 // ────────────────────────────────────────────────
 let ApplicationStreamingStore = Object.values(wpRequire.c).find(x => x?.exports?.A?.__proto__?.getStreamerActiveStreamMetadata)?.exports?.A;
 let RunningGameStore         = Object.values(wpRequire.c).find(x => x?.exports?.Ay?.getRunningGames)?.exports?.Ay;
