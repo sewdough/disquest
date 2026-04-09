@@ -8,7 +8,7 @@
 > [!CAUTION]
 > As of April 2026, Discord has begun cracking down on automation for quests, so if you see this message, you may want to avoid using it. I haven't personally received any warnings myself, but this was brought to my attention by someone using disquest:
 > 
-> <img width="836" height="272" alt="image" src="https://i.imgur.com/a1zow6Q.png" />
+> <img alt="image" src="https://i.imgur.com/a1zow6Q.png" />
 > 
 >
 ## What It Does
