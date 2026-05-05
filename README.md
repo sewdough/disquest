@@ -31,7 +31,7 @@ The script operates by temporarily altering client-side state and restores all c
 - **Comprehensive error handling** - Graceful recovery from API failures and edge cases
 - **Page navigation protection** - Auto-cleans on refresh or tab close
 - **Resource tracking** - Manages intervals, dispatchers, and store modifications
-- **Multi-Quest Support** - Accept all, run once.
+- **Multi-Quest Support** - Accept all, run once. - Risky, but keep it under 5 at once and you should be alright.
 
 ### Better User Experience
 - **Color-coded console output** - Easy-to-read status messages
