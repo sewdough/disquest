@@ -35,7 +35,7 @@ The script operates by temporarily altering client-side state and restores all c
 
 ### Better User Experience
 - **Color-coded console output** - Easy-to-read status messages
-- **Visual progress tracking** - Percentage completion with emoji indicators
+- **Visual progress tracking** - Percentage completion with custom progress bar tracking.
 - **ETA calculations** - Estimated time remaining for time-based tasks
 - **Detailed status updates** - Clear feedback at every step of the process
 
