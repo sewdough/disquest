@@ -66,7 +66,7 @@ You can get this here: https://canary.discord.com/
 After running the script:
 - You'll see color-coded status messages in the console
 - The script will automatically detect any active quests
-- Note: You will need to reinvoke the script after quest completion. You do not need to paste it again, simply hit the ↑ arrow on your keyboard in the console to reinvoke the script and hit enter.
+- Note: You will need to reinvoke the script after quest completion if you're doing one quest at a time. You do not need to paste it again, simply hit the ↑ arrow on your keyboard in the console to reinvoke the script and hit enter.
 - Progress will be displayed with percentages and ETA
 - When complete, you'll see a success message
 - All modifications will be automatically cleaned up
